@@ -1,1 +1,1 @@
-int ver_two;
+extern int ver_two;

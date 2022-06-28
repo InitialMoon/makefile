@@ -1,4 +1,4 @@
-objects = main.o summ.o ver1.o ver2.o
+objects = main.o summ.o 
 
 edit : $(objects)
 #	cc -o edit $(objects) 因为GUN的自动推导可以自动识别我么想要的命令并补充，因此我们可以省略他们，还可以有新的风格，将依赖与同一个头文件的文件并在前面一起写，被依赖的文件只用写一次，但是好像这样容易乱，我还是不用了吧

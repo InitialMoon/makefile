@@ -4,9 +4,9 @@
 #include"summ.cpp"
 using namespace std;
 int main(){
-	cout << var_one << endl;
-	cout << var_two << endl;
-	cout << var_one + var_two = << endl;
-	cout << summ(var_two, ver_one) << endl;
+	cout << ver_one << endl;
+	cout << ver_two << endl;
+	cout << ver_one + ver_two << endl;
+	cout << summ(ver_two, ver_one) << endl;
 	return 0;
 }
