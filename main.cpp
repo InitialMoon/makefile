@@ -1,12 +1,12 @@
 #include<iostream>
-#include"ver1.h"
-#include"ver2.h"
-#include"summ.cpp"
+#include"var.cpp"
+#include"sum.h"
+extern int var_two, var_one;
 using namespace std;
 int main(){
-	cout << ver_one << endl;
-	cout << ver_two << endl;
-	cout << ver_one + ver_two << endl;
-	cout << summ(ver_two, ver_one) << endl;
+	cout << var_one << endl;
+	cout << var_two << endl;
+	cout << var_one + var_two << endl;
+	cout << sum(var_two, var_one) << endl;
 	return 0;
 }
