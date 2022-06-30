@@ -1,1 +1,0 @@
-int ver_two;
